@@ -34,18 +34,6 @@ The following metrics were collected for each school:
 - **Requests**: Library for sending HTTP requests.
 - **Pandas**: For organizing and storing extracted data in a structured format.
 
-## How to Run
-1. Clone the repository to your local machine.
-2. Install the required libraries using:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the script to start the data extraction process:
-   ```bash
-   python extract_schools.py
-   ```
-4. The extracted data will be saved in a file named `CBSC_DATA.csv` and `ICSC_DATA.csv`.
-
 ## Future Work
 - Automate the scraping process to handle pagination and dynamically loaded content.
 - Add more metrics such as email addresses, website URLs, and the number of students.
